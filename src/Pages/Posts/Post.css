@@ -40,7 +40,7 @@
 
 @media only screen and (max-width: 900px){
     .post-container{
-        padding: 40px 30px;
+        padding: 40px 10px;
     }
 
     .post-body{
@@ -60,5 +60,12 @@
         font-style: italic;
         color: gray;
         padding-left: 0px;
+    }
+
+    .post-info{
+        display: flex;
+        justify-content: space-between;
+        color: rgba(255, 60, 60, 0.856);
+        flex-wrap: wrap;
     }
 }
