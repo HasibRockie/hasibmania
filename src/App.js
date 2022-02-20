@@ -9,6 +9,8 @@ import Personals from "./Pages/Personals/Personals";
 import Others from "./Pages/Others/Others";
 import NotFound from "./Pages/NotFound/NotFound";
 import Gratitude from "./Pages/Gratitude/Gratitude";
+import Post from "./Pages/Posts/Post";
+import Post01 from "./Pages/Posts/Post01/Post01";
 function App() {
   return (
     <div className="App">
@@ -21,6 +23,9 @@ function App() {
           <Route exact path="/personals" element={<Personals />}></Route>
           <Route exact path="/others" element={<Others />}></Route>
           <Route exact path="/gratitude" element={<Gratitude />}></Route>
+          <Route path="posts">
+            <Route path="01" element={<Post01 />} />
+          </Route>
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
         <Footer></Footer>

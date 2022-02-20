@@ -41,7 +41,7 @@ const Recent = () => {
                 magnam quis rerum obcaecati quasi nam odio?
               </p>
               <br />
-              <a className="read-more" href="/">
+              <a className="read-more" href="/posts/01">
                 বিস্তারিত...{" "}
               </a>
             </div>
@@ -77,7 +77,7 @@ const Recent = () => {
                 magnam quis rerum obcaecati quasi nam odio?
               </p>
               <br />
-              <a className="read-more" href="/">
+              <a className="read-more" href="/posts/01">
                 বিস্তারিত...{" "}
               </a>
             </div>
@@ -111,9 +111,9 @@ const Recent = () => {
               rerum obcaecati quasi nam odio?
             </p>
             <br />
-            <a className="read-more" href="/">বিস্তারিত...  </a>
+            <a className="read-more" href="/posts/01">বিস্তারিত...  </a>
           </div>
-        </div>
+        </div> 
         {/* post 02 */}
       </div>
     </div>

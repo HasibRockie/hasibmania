@@ -2,81 +2,79 @@
   pointer-events: none;
 }
 
-.home{
-  font-family: 'Baloo Da 2', cursive;
+.home {
+  font-family: "Baloo Da 2", cursive;
 }
 
-.recent{
+.recent {
   padding: 70px 30px;
   text-align: left;
 }
 
-.recent h4{
+.recent h4 {
   font-weight: bold;
   color: darkslategrey;
 }
 
-.all-posts{
+.all-posts {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.post-image{
+.post-image {
   width: 100%;
-  align-self:flex-end;
+  align-self: flex-end;
   position: relative;
   top: -0px;
   left: 5px;
 }
 
-.post-title, .post-subtitle{
+.post-title,
+.post-subtitle {
   padding: 10px 0px;
   font-weight: bold;
   color: coral;
 }
 
-.post-details-top{
+.post-details-top {
   padding-top: 10px;
- 
 }
 
-.post{
+.post {
   border: 3px solid gray;
   margin: 10px;
   padding: 20px;
+  background-color: #f3f2ef;
 }
 
-.section:nth-child(1){
+.section:nth-child(1) {
   display: grid;
   grid-template-columns: 2fr 3fr;
 }
 
-.section img{
+.section img {
   border: 2px solid gray;
-  transform: translate(7px,-7px);
+  transform: translate(7px, -7px);
   box-shadow: -3px 3px 5px gray;
 }
 
-
-.section .inner:nth-child(2){
+.section .inner:nth-child(2) {
   border: 2px solid gray;
-  
 }
 
-.category{
+.category {
   display: flex;
   justify-content: space-between;
   padding-right: 7px;
   font-weight: bold;
-  color:darkcyan;
+  color: darkcyan;
 }
 
-.details{
-  color:rgb(66, 66, 66);
+.details {
+  color: rgb(66, 66, 66);
 }
 
-.section{
+.section {
   padding-top: 10px;
 }
 
@@ -85,30 +83,28 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .all-posts{
-    display: grid;
-    grid-template-columns: 1fr;
-  
-  }
-
-
-  .section:nth-child(1){
+  .all-posts {
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  .section .inner:nth-child(2){
+  .section:nth-child(1) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .section .inner:nth-child(2) {
     border: 2px solid gray;
     margin: 20px 0;
   }
 
-  .section img{
+  .section img {
     border: 2px solid gray;
-    transform: translate(7px,-7px);
+    transform: translate(7px, -7px);
     box-shadow: -3px 3px 5px gray;
   }
 
-  .recent{
+  .recent {
     padding: 50px 10px;
     text-align: left;
   }
