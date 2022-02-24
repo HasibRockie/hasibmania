@@ -1,10 +1,10 @@
 import React from "react";
 import img1 from "../images/post01.png";
 
-const Recent = () => {
+const PinnedPost = () => {
   return (
     <div className="recent">
-      <h4>সাম্প্রতিক পোস্ট </h4>
+      <h4> Pinned Post </h4>
       <hr />
       <br />
       <br />
@@ -55,4 +55,4 @@ const Recent = () => {
   );
 };
 
-export default Recent;
+export default PinnedPost;

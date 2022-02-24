@@ -5,20 +5,29 @@ import img01 from '../../images/post01.png'
 const Post01 = () => {
   return <div className="post-container">
     <h3 className="post-headline">
-      Headline 
+      সূচনা পোস্ট  
     </h3> <hr /><br />
     <div className="post-info">
-      <h5>Category</h5>
-      <h5>Post no.</h5>
-      <h5>Published date</h5>
+      <h5>ব্যক্তিগত</h5>
+      <h5>পোস্ট নংঃ ০১ </h5>
+      <h5>২৫ ফেব্রুয়ারি, ২০২২ </h5>
     </div>
     <hr /><br />
     <div className="post-body">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti odit eum nobis! Unde iure adipisci architecto voluptatem illo libero odio iusto ratione eius, quo tenetur fuga. Voluptatum sed molestiae veniam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, facere pariatur consequuntur magnam, suscipit exercitationem ipsam mollitia praesentium recusandae esse temporibus. Quo optio non molestias similique, molestiae, natus laborum fugiat dolorem, ex veritatis quod perferendis voluptatum ab quidem blanditiis id cumque! Sed, reprehenderit architecto similique voluptatem quaerat facere cumque? Iure quo facilis sit quas iusto non, maxime, nihil sequi tenetur voluptate corporis ea ducimus. Quidem esse doloremque nulla sequi quos tempora eum distinctio expedita, dolore sed laudantium eveniet iste totam! Veniam nesciunt excepturi laboriosam explicabo! Laboriosam alias natus ipsa ipsam id omnis ea, vel harum, doloribus perferendis iusto optio eveniet.</p> <br />
-      <img src={img01} alt="post 01" />
-      <p className="img-caption">Caption </p>
+      <p> এই ওয়েবসাইট টি আসলে শখের বশেই খোলা। খোলার পেছনে অনেক কারনও রয়েছে। অনেক সময়ই মাথায় অনেক কথা আসে, কিন্তু ফেসবুক সহ অন্যান্য সোশ্যাল মিডিয়া তে শেয়ার করার মতো অবস্থা থাকে না এবং ইচ্ছাও হয় না। কারন অনেক ধরনের মানুষই আছে, যেটা আমার কাছে অনেক গুরুত্বপূর্ন, সেটি অনেকের কাছে প্রদর্শনের বস্তু বলে মনে হবে। তাই আমি আমার মতো আলাদা মিডিয়া খুজে নিয়েছি নিজের কথা বলার। এখানে সবাই আমার কথা দেখবে না, কেবল  ইচ্ছুক মানুষরাই দেখবে। যার পছন্দ হবে না, সে দেখবে না। তাছাড়া, নিজের অবসর সময়ে কিছু একটা করে নিজেকে ব্যস্ত রাখাও যাবে এর মাধ্যমে। আরেকটা বিষয় হলো, একটা সময় পরে গিয়ে নিজের সব কথাগুলো নিজেও কম্পাইলড আকারে খুজে পাবো। সময়ের সাথে নিজের চিন্তা চেতনা, ভাবনার পরিবর্তন গুলোও ধরতে পারবো। এই ওয়েবসাইট কে অনেক দিন টিকিয়ে রাখার ইচ্ছা। বাকিটা আল্লাহর ইচ্ছা। </p> <br />
+      <p>এটা আমার ব্যক্তিগত উপলব্ধি যে, যারা মুখে বলে সব প্রকাশ করতে পারে না, তারা ভালো লিখতে জানে। নিজের বেলায়ও এটাই মনে হয় যে, আমি লিখে নিজেকে ভালো প্রকাশ করতে পারবো। আর ওয়েব ডেভেলপমেন্ট এর কাজ নিয়ে আমি ঘন্টার পর ঘন্টা কাটিয়ে দিতে পারি নির্দ্বিধায়। তাই মাধ্যম হিসেবে ওয়েবসাইট কে বেছে নিলাম। আরেকটা বিষয় পরিষ্কার করা দরকার যে, ওয়েব ডেভেলপমেন্ট আমি আমার ভালো লাগা থেকেই করি, এখানে কোন কমার্শিয়াল চিন্তা-ভাবনা নেই। আমি নিজেই অনেক সুযোগ ছেড়ে দিয়েছি। </p>
       <br />
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda amet, repellat sit laborum asperiores nemo et corrupti minima enim quas dicta vitae autem, impedit iusto earum accusantium. Debitis odit facere corrupti sunt sequi fugit ut. Explicabo, delectus reprehenderit corrupti est dolore, nihil voluptate officia aliquid corporis odio autem, porro molestiae qui quibusdam! Est odio voluptatibus iusto velit ipsa assumenda nulla repellendus sed esse, dignissimos officiis necessitatibus eius, quas ipsam illo? In quisquam perferendis corrupti repellendus doloremque nam iure harum necessitatibus commodi non laborum placeat eligendi quos accusamus, amet soluta labore voluptas optio saepe! Rem ipsam optio est aperiam reprehenderit aliquam voluptatibus at expedita cumque non atque adipisci accusamus culpa ratione maxime eos beatae alias, laboriosam eius. Quibusdam, eum aliquam? Atque unde id qui quod beatae, tempore repudiandae. Quasi fuga incidunt, optio, laborum eius reprehenderit voluptatum reiciendis harum mollitia sed necessitatibus amet molestiae voluptatibus hic explicabo ipsam, dolor debitis rerum temporibus vel! Quae soluta deleniti omnis quibusdam rerum! Id maiores voluptatum accusamus dicta aperiam ipsam consequatur. Praesentium asperiores in recusandae reprehenderit cum id, quam laboriosam quisquam laudantium corrupti quidem voluptatem, magnam et. Eveniet assumenda ad vitae aut totam sunt dignissimos necessitatibus. Tempore pariatur culpa, facilis debitis id dicta blanditiis quos quisquam.</p>
+       <br />
+      <img src={img01} alt="post 01" />
+      <p className="img-caption">প্রথম পোস্ট  </p>
+      <br />
+      <p>কি কি ধরনের পোস্ট থাকবে? মূলত ৩ ভাগে পোস্ট থাকবে। যেমনঃ <br />
+      <ul> <b>ব্যক্তিগত পোস্টঃ</b> এ ধরনের পোস্ট গুলো ক্যাজুয়াল ভাষায় লিখা হবে। ব্যক্তিগত অনেক ঘটনা চলে আসবে এসব পোস্টে। তবে যথা সম্ভব চেষ্টা করা হবে, কাউকে ব্যক্তিগত ভাবে ছোট না করা। আর মানুষ হিসেবে আমরা কেউ ভুল ত্রুটির উর্ধ্বে নই। যদি প্রকাশভঙ্গি দৃষ্টিকটু বলে মনে হয়, অবশ্যই আমাকে মেইল করে জানানোর অনুরোধ থাকবে। আমি নিজেকে আরো নিখুত করার চেষ্টা করবো। আর এসব ঘটনায় আমি নিজের অভিজ্ঞতা তুলে ধরবো, কোন রকম ম্যানিপুলেশন, আধিক্যতা এবং আংশিক উপস্থাপনা ছাড়া।  </ul>
+      <ul><b>শিক্ষনীয় পোস্টঃ </b>এসব পোস্টে এমন বিষয়াদি আসবে, যা আমি নিজে উৎসাহী ছিলাম ছোট বেলায়। যেমনঃ আমার কোড ও সাইফার অনেক পছন্দের ছিল। এনক্রিপ্টেড মেসেজ কে ডিকোড করে মজা পেতাম। এছাড়াও স্কাউট এবং অন্যান্য অনেক মাধ্যমে শেখা বিষয়াদি আমার মতো করে তুলে ধরবো। আপেক্ষিক তত্ত্ব, টাইম ডায়ালেশন, টুইন প্যারাডক্স, টাইম ট্রাভেল, প্যারালাল ইউনিভার্স, পারসোনালিটি টাইপ ও বৈশিষ্ট্য ইত্যাদি ব্যাপারে আমি নিজে অনেক আগ্রহী ছিলাম। সেসব নিয়ে লিখার ইচ্ছা রয়েছে।<br />
+      এ ধরনের পোস্ট আমি ছাড়াও সবার জন্যে উন্মুক্ত রাখলাম। কেউ যদি কোন আর্টিকেল লিখতে চায়, আমি সাদরে গ্রহণ করবো। যদি প্রকাশ উপযোগী হয়, আমি পাবলিশ করবো এখান থেকে। পোস্ট লিখে পাঠানোর জন্যে ওয়েবসাইটের ফুটারে দেয়া মেইলে পোস্ট এবং সংশ্লিষ্ট ছবি (যদি থাকে) পাঠানোর জন্যে অনুরোধ করা গেলো।লিখার বিষয় যেকোন কিছুই হতে পারে, কিন্তু বিতর্ক সৃষ্টিকারী বিষয়াদি ছাড়া। লেখকের নাম উল্লেখপূর্বক পোস্ট করা হবে। </ul>
+      <ul><b>
+        ধর্মীয় পোস্টঃ</b> রাসুল (সাঃ) এর সীরাহ এবং এর পরবর্তী অনেক ঘটনাবলি অনেক মুসলিমরাই জানে না। আমি নিজেও পুরোপুরি জ্ঞান রাখি না। তবে আমি আমার জানার মধ্যে অনেক বিষয়াদি তুলে ধরতে আগ্রহী। আমার কাছে যেমন ঘটনা অনেক তাৎপর্য্যময় বলে মনে হয় এবং আমার নিজের মোটামুটি জানা আছে, সেসব বিষয় নিয়েই লিখা হবে। আশাকরি বিতর্ক সৃষ্টি করে, এমন কিছু এখানে লিখা হবেনা।<br /> যে কেউ চাইলে ধর্মীয় পোস্ট লিখেও পাঠাতে পারেন। যদি প্রকাশ উপযোগী হয়, তবে লেখকের নাম উল্লেখপূর্বক তা প্রকাশ করা হবে।  </ul>
+      </p>
     </div>
   </div>;
 };
