@@ -1,6 +1,7 @@
 import React from "react";
 import "../Post.css";
 import img01 from '../../images/post01.png'
+// import Post01 from './../Post01/Post01';
 
 const Post01 = () => {
   return <div className="post-container">
@@ -10,7 +11,7 @@ const Post01 = () => {
     <div className="post-info">
       <h5>ব্যক্তিগত</h5>
       <h5>পোস্ট নংঃ ০১ </h5>
-      <h5>২৫ ফেব্রুয়ারি, ২০২২ </h5>
+      <h5>২৫ ফেব্রুয়ারি, ২০২২  </h5>
     </div>
     <hr /><br />
     <div className="post-body">

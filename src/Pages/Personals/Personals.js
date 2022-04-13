@@ -1,6 +1,7 @@
 import React from "react";
 import "./Personals.css";
 import img1 from "../images/post01.png";
+import img2 from "../images/post02.png";
 
 const Personals = () => {
   return (
@@ -12,6 +13,48 @@ const Personals = () => {
         <br />
         <br />
         <div className="all-posts">
+
+
+          
+          {/* post no 02  */}
+          <div className="post">
+            <div className="section">
+              <div className="inner">
+                <h4 className="post-title">
+                  প্রাইমারি স্কুল জীবনের সার-সংক্ষেপ (২০০৬-২০১০){" "}
+                </h4>
+                <h5 className="post-subtitle">পোস্ট নংঃ ০২ </h5> <hr />
+                <div className="category">
+                  <p>ব্যাক্তিগত</p>
+                  <p>১৪ এপ্রিল, ২০২২</p>
+                </div>{" "}
+                <hr />
+                <p className="details post-details-top">
+                  আমার ফ্যামিলি ২০০৫ এর মার্চ এর দিকে কমলনগর থেকে জেলা সদরে আসে।
+                  আমরা তখন হাসপাতাল রোডে একতলা এক বাসায় ভাড়া থাকতাম। 
+                </p>
+              </div>
+              <div className="inner">
+                <img className="post-image" src={img2} alt="" />
+              </div>
+            </div>
+            <div className="section">
+              <p className="details post-details">বছরের
+                  মাঝামাঝি হওয়ায় এক সরকারি প্রাইমারি স্কুলে ভর্তি হই।
+                তখনকার দৈনন্দিন জীবন ছিল এমন- আব্বু প্রত্যেক দিন পৌছায়ে দিতো
+                স্কুলে, আর ৫টাকা দিয়ে দিতো রিক্সা দিয়ে চলে আসার জন্যে।আমি রিক্সা
+                দিয়ে না এসে ঐ টাকা জমাতে থাকলাম। একসময় আমার অনেক টাকা জমে গেলো।
+                মাটির এক ব্যাংক ছিল। সেটা অর্ধেক পর্যন্ত টাকা জমিয়েছিলাম। একদিন
+                দুর্ঘটনাবশত মাটির ব্যাংক ভেঙে যায়। আমার কান্না কে দেখে। ঐদিনই
+                পরে প্লাস্টিকের আরেকটা ব্যাংক কিনে দিয়েছিল।{" "}
+              </p>
+              <br />
+              <a className="read-more" href="/posts/02">
+                বিস্তারিত...{" "}
+              </a>
+            </div>
+          </div>
+
           {/* post 01 */}
 
           <div className="post">
@@ -52,6 +95,9 @@ const Personals = () => {
               </a>
             </div>
           </div>
+
+
+          {/* post no 03  */}
         </div>
       </div>
     </div>

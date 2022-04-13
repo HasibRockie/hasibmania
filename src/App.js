@@ -10,6 +10,7 @@ import Others from "./Pages/Others/Others";
 import NotFound from "./Pages/NotFound/NotFound";
 import Gratitude from "./Pages/Gratitude/Gratitude";
 import Post from "./Pages/Posts/Post";
+import Post02 from "./Pages/Posts/Post02/Post02";
 import Post01 from "./Pages/Posts/Post01/Post01";
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/gratitude" element={<Gratitude />}></Route>
           <Route path="posts">
             <Route path="01" element={<Post01 />} />
+            <Route path="02" element={<Post02 />} />
           </Route>
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
