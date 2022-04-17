@@ -2,6 +2,7 @@ import React from "react";
 import "./Personals.css";
 import img1 from "../images/post01.png";
 import img2 from "../images/post02.png";
+import img3 from "../images/post03.png";
 
 const Personals = () => {
   return (
@@ -13,6 +14,37 @@ const Personals = () => {
         <br />
         <br />
         <div className="all-posts">
+
+                    {/* post no 03  */}
+                    <div className="post">
+            <div className="section">
+              <div className="inner">
+                <h4 className="post-title">
+                মাধ্যমিক স্কুলজীবনের  সারসংক্ষেপ (২০১০- ২০১৬)    {" "}
+                </h4>
+                <h5 className="post-subtitle">পোস্ট নংঃ ০৩ </h5> <hr />
+                <div className="category">
+                  <p>ব্যাক্তিগত</p>
+                  <p>১৭ এপ্রিল, ২০২২</p>
+                </div>{" "}
+                <hr />
+                <p className="details post-details-top">
+                <b> (Disclaimer: প্রচুর ব্যক্তিগত কথায় ভরপুর, অনেকেরই বিরক্তির উদ্রেগ হতে পারে। তাই আগ্রহী না হলে, স্কিপ করতে পারেন। ) </b> 
+                </p>
+              </div>
+              <div className="inner">
+                <img className="post-image" src={img3} alt="" />
+              </div>
+            </div>
+            <div className="section">
+              <p className="details post-details">প্রাথমিক শিক্ষা সমাপনী পরীক্ষা শেষ করে ঢাকায় ঘুরতে চলে আসলাম। জেলা বয়েজ স্কুলের ভর্তি পরীক্ষার ৪/৫ দিন আগে বাসায় এসে ভর্তি পরীক্ষার প্রস্তুতি নেয়া শুরু করলাম। এদিকে শুনি আমার বন্ধু বান্ধব রা সবাই কোচিং করে একাকার। আমি ভয় পাওয়া শুরু করে দিলাম। তারপরেও সেরাটা দিয়ে প্রিপারেশন নিলাম। ফলাফল আমি ভর্তি পরীক্ষায় সম্মিলিতভাবে প্রথম। এখনো মনে আছে, ট্রাপিজিয়ামের একটা অংক এসেছিল, কেউ পারে নি, কিন্তু আমি পেরেছিলাম। তার কারনেই ফলাফলে আমি বাকিদের চেয়ে এগিয়ে যাই।{" "}
+              </p>
+              <br />
+              <a className="read-more" href="/posts/03">
+                বিস্তারিত...{" "}
+              </a>
+            </div>
+          </div>
 
 
           
