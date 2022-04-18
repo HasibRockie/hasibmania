@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../images/post01.png";
 import img2 from "../images/post02.png";
 import img3 from "../images/post03.png";
+import img4 from "../images/post04.png";
 
 const Recent = () => {
   return (
@@ -12,6 +13,44 @@ const Recent = () => {
       <br />
       <br />
       <div className="all-posts">
+        {/* post no 04  */}
+        <div className="post">
+          <div className="section">
+            <div className="inner">
+              <h4 className="post-title">
+                কলেজ জীবনের সারসংক্ষেপ (২০১৬- ২০১৮){" "}
+              </h4>
+              <h5 className="post-subtitle">পোস্ট নংঃ ০৪ </h5> <hr />
+              <div className="category">
+                <p>ব্যাক্তিগত</p>
+                <p>১৮ এপ্রিল, ২০২২</p>
+              </div>{" "}
+              <hr />
+              <p className="details post-details-top">
+                কলেজ ভর্তির পালা আসলো, কোথায় ভর্তি হবো তা নিয়ে এক একজন একেক রকম
+                পরামর্শ দিলো। অনেকেই বললো নিজ জেলায় ভর্তি হতে।
+              </p>
+            </div>
+            <div className="inner">
+              <img className="post-image" src={img4} alt="" />
+            </div>
+          </div>
+          <div className="section">
+            <p className="details post-details">
+              কিন্তু আমার মা এই ব্যাপারে অনড় যে, আমাকে লক্ষ্মীপুর ভর্তি করবেন
+              না, ঢাকায় পাঠিয়ে দিবেন। এখানে থাকলে ভালো কোন প্রতিযোগী পাবো না,
+              ভর্তি পরীক্ষায় পিছিয়ে যাবো। যাই হোক, আব্বুর এর বন্ধু, বাহার আঙ্কেল
+              আম্মু কে বললেন, পিলখানায় কোন এক কলেজে উনি আমাকে ভর্তি করিয়ে দিবেন,
+              আর ওনার বাসা জিগাতলায় থাকবো আমি। আমার মা অন্যদের সাথে পরামর্শ করে
+              রাজি হলেন।{" "}
+            </p>
+            <br />
+            <a className="read-more" href="/posts/04">
+              বিস্তারিত...{" "}
+            </a>
+          </div>
+        </div>
+
         {/* post no 03  */}
         <div className="post">
           <div className="section">
