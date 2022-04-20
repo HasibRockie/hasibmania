@@ -3,6 +3,7 @@ import img1 from "../images/post01.png";
 import img2 from "../images/post02.png";
 import img3 from "../images/post03.png";
 import img4 from "../images/post04.png";
+import img5 from "../images/post05.png";
 
 const Recent = () => {
   return (
@@ -13,6 +14,42 @@ const Recent = () => {
       <br />
       <br />
       <div className="all-posts">
+        {/* post no 05  */}
+        <div className="post">
+          <div className="section">
+            <div className="inner">
+              <h4 className="post-title">ভর্তি যুদ্ধের অভিজ্ঞতা (২০১৮) </h4>
+              <h5 className="post-subtitle">পোস্ট নংঃ ০5 </h5> <hr />
+              <div className="category">
+                <p>ব্যাক্তিগত</p>
+                <p>20 এপ্রিল, ২০২২</p>
+              </div>{" "}
+              <hr />
+              <p className="details post-details-top">
+                এইচ,এস,সি শেষ হওয়ার পর থেকেই ভর্তি প্রস্তুতির পালা শুরু।
+                উদ্ভাসেই ভর্তি হবো, এতটুকু নিশ্চিত। কিন্তু ফার্মগেট নাকি
+                সাইন্সল্যাব ব্রাঞ্চে ভর্তি হবো, তা নিয়ে প্রথমে কনফিউশন ছিল।
+              </p>
+            </div>
+            <div className="inner">
+              <img className="post-image" src={img5} alt="" />
+            </div>
+          </div>
+          <div className="section">
+            <p className="details post-details">
+              পরে হিসেব করে দেখলাম, কোথায় সময়ের অপচয় কম, সেখানে ভর্তি হবো।
+              সাইন্সল্যাব আমার জন্যে কাছে ছিল, তাই সময় অপচয় হবে কম, তাই এখানেই
+              ভর্তি হই। সময় টা বাছাই এর সময়ও চেষ্টা করলাম, এমন সময় বেছে নিতে,
+              যখন আমি সাধারণত পড়বো না। নিজের পড়ার সময় এর সাথে যেনো কোচিং এর সময়
+              ওভারলেপ না করে। দুপুর ১২টার ব্যাচ পছন্দ করলাম।{" "}
+            </p>
+            <br />
+            <a className="read-more" href="/posts/05">
+              বিস্তারিত...{" "}
+            </a>
+          </div>
+        </div>
+
         {/* post no 04  */}
         <div className="post">
           <div className="section">
