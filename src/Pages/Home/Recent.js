@@ -4,6 +4,7 @@ import img2 from "../images/post02.png";
 import img3 from "../images/post03.png";
 import img4 from "../images/post04.png";
 import img5 from "../images/post05.png";
+import img6 from "../images/post06.png";
 
 const Recent = () => {
   return (
@@ -14,6 +15,42 @@ const Recent = () => {
       <br />
       <br />
       <div className="all-posts">
+        {/* post no 06  */}
+        <div className="post">
+          <div className="section">
+            <div className="inner">
+              <h4 className="post-title">
+                ফেসবুক জীবনের আদ্যোপান্ত (২০১৪ - বর্তমান){" "}
+              </h4>
+              <h5 className="post-subtitle">পোস্ট নংঃ ০৬ </h5> <hr />
+              <div className="category">
+                <p>ব্যাক্তিগত</p>
+                <p>২২ এপ্রিল, ২০২২</p>
+              </div>{" "}
+              <hr />
+              <p className="details post-details-top">
+                অষ্টম শ্রেণী তে থাকতে কোন এক বন্ধুর মাধ্যমে এই পাপের পথের
+                হাতেখড়ি হয়। প্রথম দিকে কিছুই বুঝতাম না,
+              </p>
+            </div>
+            <div className="inner">
+              <img className="post-image" src={img6} alt="" />
+            </div>
+          </div>
+          <div className="section">
+            <p className="details post-details">
+              খালি ফ্রি তে মেসেজ দেয়া যায়, এটাতেই খুশি আমি। ক্লাসমেট দের মেসেজ
+              দিতাম, তাও ইংলিশে মেসেজ দিতামঃ “How are you? What are you doing”
+              টাইপের মেসেজ। পরে এক বন্ধু শিখাই দিলো, এখানকার কালচার কেমন!
+              বাংলিশে কথা বার্তা বলতে হবে!{" "}
+            </p>
+            <br />
+            <a className="read-more" href="/posts/06">
+              বিস্তারিত...{" "}
+            </a>
+          </div>
+        </div>
+
         {/* post no 05  */}
         <div className="post">
           <div className="section">
