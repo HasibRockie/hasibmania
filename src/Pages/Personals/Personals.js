@@ -6,6 +6,7 @@ import img3 from "../images/post03.png";
 import img4 from "../images/post04.png";
 import img5 from "../images/post05.png";
 import img6 from "../images/post06.png";
+import img7 from "../images/post07.png";
 
 const Personals = () => {
   return (
@@ -17,6 +18,43 @@ const Personals = () => {
         <br />
         <br />
         <div className="all-posts">
+          {/* post no 07  */}
+          <div className="post">
+            <div className="section">
+              <div className="inner">
+                <h4 className="post-title">কোভিড-এর দিনগুলি </h4>
+                <h5 className="post-subtitle">পোস্ট নংঃ ০৭ </h5> <hr />
+                <div className="category">
+                  <p>ব্যাক্তিগত</p>
+                  <p>২৫ এপ্রিল, ২০২২</p>
+                </div>{" "}
+                <hr />
+                <p className="details post-details-top">
+                  আমি তখন লেভেল-১ টার্ম-২ এর শিক্ষার্থী। স্বাভাবিক ভাবেই ক্লাস
+                  করছি। একদিন হলে হঠাৎ শুনতে পেলাম, হল বন্ধ হয়ে যাবে।
+                </p>
+              </div>
+              <div className="inner">
+                <img className="post-image" src={img7} alt="" />
+              </div>
+            </div>
+            <div className="section">
+              <p className="details post-details">
+                সিনিয়র ছাত্ররা হল বন্ধ করে দেয়া এবং ক্লাস আপাতত অফ রাখার জন্যে
+                আবেদন জানালো। এর আগে কোভিড-১৯ নিয়ে টুকটাক কথা শুনেছি। কিন্তু
+                এতোটা সিরিয়াস ভাবিনি। ২/১ দিনের মধ্যেই হল বন্ধ করে দেয়ার নোটিস
+                এসে গেলো। ২০২০ এর ১৫ মার্চ রাতে নীলক্ষেত থেকে আমি বাসার
+                উদ্দেশ্যে রওয়ানা দেই। এরপর বাকি সময় বাসাতেই কাটে। তখন ক্লাসও অফ,
+                অনলাইনে ক্লাস করার সিদ্ধান্ত এখনো বুয়েট কর্তৃপক্ষের মাথায় আসে
+                নি।{" "}
+              </p>
+              <br />
+              <a className="read-more" href="/posts/07">
+                বিস্তারিত...{" "}
+              </a>
+            </div>
+          </div>
+
           {/* post no 06  */}
           <div className="post">
             <div className="section">
