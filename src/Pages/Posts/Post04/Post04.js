@@ -58,7 +58,7 @@ const Post04 = () => {
         </p>
         <br />
         <br />
-        <img src={img04} alt="post 03" />
+        <img src={img04} alt="post 04" />
         <p className="img-caption">কলেজ জীবনের সারসংক্ষেপ (২০১৬- ২০১৮) </p>
         <br />
         <p>

@@ -38,7 +38,7 @@ const Post07 = () => {
         </p>
         <br />
         <br />
-        <img src={img07} alt="post 03" />
+        <img src={img07} alt="post 07" />
         <p className="img-caption">কোভিড-এর দিনগুলি </p>
         <br />
         <p>

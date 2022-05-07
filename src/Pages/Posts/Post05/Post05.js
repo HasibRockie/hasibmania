@@ -49,7 +49,7 @@ const Post05 = () => {
         </p>
         <br />
         <br />
-        <img src={img05} alt="post 03" />
+        <img src={img05} alt="post 05" />
         <p className="img-caption">ভর্তি যুদ্ধের অভিজ্ঞতা (২০১৮) </p>
         <br />
         <p>

@@ -7,6 +7,7 @@ import img4 from "../images/post04.png";
 import img5 from "../images/post05.png";
 import img6 from "../images/post06.png";
 import img7 from "../images/post07.png";
+import img8 from "../images/post08.png";
 
 const Personals = () => {
   return (
@@ -18,6 +19,38 @@ const Personals = () => {
         <br />
         <br />
         <div className="all-posts">
+
+          {/* post no 08  */}
+          <div className="post">
+            <div className="section">
+              <div className="inner">
+                <h4 className="post-title">LIFE IS REALLY BEAUTIFUL!!! </h4>
+                <h5 className="post-subtitle">পোস্ট নংঃ ০৮ </h5> <hr />
+                <div className="category">
+                  <p>ব্যাক্তিগত</p>
+                  <p>৮ মে, ২০২২</p>
+                </div>{" "}
+                <hr />
+                <p className="details post-details-top">
+                জীবন কি আসলেই সুন্দর? সুন্দর হলে এতো এতো হতাশ মানুষ কেনো চারপাশে? হতাশ মানুষের সংখ্যাই কি বেশি, নাকি সুখী মানুষের সংখ্যা বেশি পৃথিবীতে? 
+                </p>
+              </div>
+              <div className="inner">
+                <img className="post-image" src={img8} alt="" />
+              </div>
+            </div>
+            <div className="section">
+              <p className="details post-details">
+              সে জরিপ আমার জানা না থাকলেও আমি নিজেকে সুখী মানুষ হিসেবেই বিবেচনা করি এবং ভবিষ্যতেও করবো ইনশাল্লাহ। আমার জীবনেও হতাশার কমতি ছিল না, কিন্তু সে তুলনায় সুখী হওয়ার জন্যে জীবনে আরো বেশি কিছু ছিল এবং আছে। <br /> জীবনের একদম শুরুর দিকে যখন কিছুটা জ্ঞান হতে শিখেছে, তখন আব্বু আমাকে কাধে করে ঘুরতো। সেই আনন্দ তখন যতটা না অনুভব করেছি, যখন সময়টা পেরিয়ে গিয়েছে, তখন অনুভব করতাম, আসলেই আমি অনেক ভালো সময় কাটিয়ে এসেছি।  {" "}
+              </p>
+              <br />
+              <a className="read-more" href="/posts/08">
+                বিস্তারিত...{" "}
+              </a>
+            </div>
+          </div>
+
+
           {/* post no 07  */}
           <div className="post">
             <div className="section">

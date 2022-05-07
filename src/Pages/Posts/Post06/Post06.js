@@ -44,7 +44,7 @@ const Post06 = () => {
         </p>
         <br />
         <br />
-        <img src={img06} alt="post 03" />
+        <img src={img06} alt="post 06" />
         <p className="img-caption">ফেসবুক জীবনের আদ্যোপান্ত (২০১৪ - বর্তমান) </p>
         <br />
         <p>

@@ -46,7 +46,7 @@ const Post02 = () => {
         </p>
         <br />
         <br />
-        <img src={img02} alt="post 01" />
+        <img src={img02} alt="post 02" />
         <p className="img-caption">প্রাইমারি স্কুল জীবনের সার-সংক্ষেপ </p>
         <br />
         <p>
