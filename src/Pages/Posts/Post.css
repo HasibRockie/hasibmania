@@ -37,6 +37,10 @@
     padding: 20px;
 }
 
+.author{
+    color:salmon;
+}
+
 
 @media only screen and (max-width: 900px){
     .post-container{

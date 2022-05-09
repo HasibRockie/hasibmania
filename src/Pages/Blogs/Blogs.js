@@ -1,6 +1,7 @@
 import React from "react";
 import "./Blogs.css";
 import img1 from "../images/post01.png";
+import img9 from "../images/post09.png";
 
 const Blogs = () => {
   return (
@@ -12,7 +13,48 @@ const Blogs = () => {
         <br />
         <br />
         <div className="all-posts">
-          {/* post 01 */}
+          {/* post no 09  */}
+          <div className="post">
+            <div className="section">
+              <div className="inner">
+                <h4 className="post-title">
+                  “জিদান,পৃথিবী নং-৩২ থেকে বলছি”! (পর্ব-১){" "}
+                </h4>
+                <h5 className="post-subtitle">পোস্ট নংঃ ০৯ </h5> <hr />
+                <div className="category">
+                  <p>বিবিধ</p>
+                  <p>৯ মে, ২০২২</p>
+                </div>{" "}
+                <hr />
+                <p className="details post-details-top">
+                  জিদান ঢাকা বিশ্ববিদ্যালয়ে এবার নতুন ভর্তি হয়েছে তাত্ত্বিক
+                  পদার্থবিজ্ঞানে। ঝিনাইদহ থেকে ঢাকা নতুন এসেছে। নতুন পরিবেশ,
+                  চারপাশে যা-ই দেখে মুগ্ধ দৃষ্টিতে তাকিয়ে থাকে।
+                </p>
+              </div>
+              <div className="inner">
+                <img className="post-image" src={img9} alt="post 09" />
+              </div>
+            </div>
+            <div className="section">
+              <p className="details post-details">
+                কারণ এই পরিবেশ তার কাছে নতুন। এতো সুন্দর একাডেমিক বিল্ডিং-এ
+                ক্লাস করতে পেরে মনে মনে খুব-ই খুশি। সবার সাথে মিশতেও ভয় পায়,
+                সবাই তাকে গ্রহণ করবে কীনা ভালোভাবে, সে দ্বিধা-দ্বন্দে ভোগে। তবুও
+                ২জন ছেলে বন্ধু এবং একজন মেয়ে বন্ধু পেয়ে গেলো কয়েকদিন ক্লাস করেই।
+                আগে থেকেই তার পদার্থবিদ্যায় প্রচুর আগ্রহ, তাই মাইক্রোবায়োলজির
+                মতো সাবজেক্ট পেয়েও ছেড়ে দিয়েছে। নিয়েছে তাত্ত্বিক পদার্থবিজ্ঞান,
+                স্বপ্ন একদিন অনেক বড় পদার্থবিদ এবং গবেষক হবে। পড়াশুনার চাপ কম
+                দেখে নীলক্ষেত থেকে মাল্টিভার্স সম্পর্কিত দুটি বই কিনে আনলো। রুমে
+                এসে মাঝ থেকে ২/১ পৃষ্ঠা করে কিছু কিছু পড়েছে।{" "}
+              </p>
+              <br />
+              <a className="read-more" href="/posts/09">
+                বিস্তারিত...{" "}
+              </a>
+            </div>
+          </div>
+
           {/* post no 01 */}
           <div className="post">
             <div className="section">

@@ -12,7 +12,6 @@ const Others = () => {
         <br />
         <br />
         <div className="all-posts">
-          {/* post 01 */}
           {/* post no 01 */}
           <div className="post">
             <div className="section">
