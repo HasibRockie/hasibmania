@@ -2,6 +2,7 @@ import React from "react";
 import "./Blogs.css";
 import img1 from "../images/post01.png";
 import img9 from "../images/post09.png";
+import img10 from "../images/post10.png";
 
 const Blogs = () => {
   return (
@@ -13,6 +14,48 @@ const Blogs = () => {
         <br />
         <br />
         <div className="all-posts">
+          {/* post no 10  */}
+          <div className="post">
+            <div className="section">
+              <div className="inner">
+                <h5 className="post-title">
+                  “DOES TIME TRAVEL EXIST? OR EVERYTHING IS AN ILLUSION.”{" "}
+                </h5>
+                <h5 className="post-subtitle">পোস্ট নংঃ ১০ </h5> <hr />
+                <div className="category">
+                  <p>বিবিধ</p>
+                  <p>১০ মে, ২০২২</p>
+                </div>{" "}
+                <hr />
+                <p className="details post-details-top">
+                  দুই বন্ধু মিশকাত এবং বাশার। দুজন ভিন্ন ভিন্ন ডিপার্টমেন্টে
+                  পড়লেও তাদের মধ্যে বেশ ভালো বন্ধুত্ব আছে। কারণ বিশ্ববিদ্যালয়ের
+                  হলগুলোই এমন।
+                </p>
+              </div>
+              <div className="inner">
+                <img className="post-image" src={img10} alt="post 10" />
+              </div>
+            </div>
+            <div className="section">
+              <p className="details post-details">
+                ভাইয়ের মতো কতোগুলো বন্ধু জুটিয়ে দেয়, পরিবারকে ভুলে যাদের সাথে
+                কাটানো যায় অনেক ভালো ভালো সময়। দুজনেই ভীষণ যৌক্তিক এবং
+                বিজ্ঞানমনস্ক মানুষ, তাও তাদের বিশ্বাসে অনেক মতপার্থক্য রয়েছে।
+                দুজন একদিন টি,এস,সি তে বসে বসে মাল্টা চা খেতে খেতে গল্প করছিল।
+                হঠাৎ দুজনের সামনে দিয়ে এক শাড়ি পরা মেয়ে এসে চায়ের অর্ডার করলো।
+                বেশভূষা দেখে ৬০ এর দশকের বলে মনে হয়। বাশার বলে উঠলো মিশকাত কেঃ
+                এখনকার সময়ে কেউ এমন পুরাতন ফ্যাশনের পোশাক পরে নাকি? নাকি কোন
+                সাংস্কৃতিক অনুষ্ঠানে অংশগ্রহণ করে এসেছে? মিশকাত মজা করে বলে
+                ঊঠলোঃ...{" "}
+              </p>
+              <br />
+              <a className="read-more" href="/posts/10">
+                বিস্তারিত...{" "}
+              </a>
+            </div>
+          </div>
+
           {/* post no 09  */}
           <div className="post">
             <div className="section">
