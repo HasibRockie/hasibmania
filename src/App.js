@@ -9,7 +9,6 @@ import Personals from "./Pages/Personals/Personals";
 import Others from "./Pages/Others/Others";
 import NotFound from "./Pages/NotFound/NotFound";
 import Gratitude from "./Pages/Gratitude/Gratitude";
-import Post from "./Pages/Posts/Post";
 import Post02 from "./Pages/Posts/Post02/Post02";
 import Post01 from "./Pages/Posts/Post01/Post01";
 import Post03 from "./Pages/Posts/Post03/Post03";
