@@ -9,6 +9,7 @@ import img7 from "../images/post07.png";
 import img8 from "../images/post08.png";
 import img9 from "../images/post09.png";
 import img10 from "../images/post10.png";
+import img11 from "../images/post11.png";
 
 const Recent = () => {
   return (
@@ -19,6 +20,46 @@ const Recent = () => {
       <br />
       <br />
       <div className="all-posts">
+        {/* post no 11  */}
+        <div className="post">
+          <div className="section">
+            <div className="inner">
+              <h4 className="post-title">“নীল খাম নাকি সবুজ খাম?” </h4>
+              <h5 className="post-subtitle">পোস্ট নংঃ ১১ </h5> <hr />
+              <div className="category">
+                <p>বিবিধ</p>
+                <p>১২ মে, ২০২২</p>
+              </div>{" "}
+              <hr />
+              <p className="details post-details-top">
+                অনেক প্রস্তুতির পর হিমেল আজকে সাহস করে বাসা থেকে বের হলো। আজকে
+                সে নিশাত কে প্রেমের প্রস্তাব দিবে। যদিও সে অনেক ভয় পাচ্ছে,
+                নিশাতের মতো সাহসী,বাস্তববাদী এবং বুদ্ধিমতী মেয়ের সামনে দাড়াতেই
+                তার সাহস হয় না।
+              </p>
+            </div>
+            <div className="inner">
+              <img className="post-image" src={img11} alt="post 11" />
+            </div>
+          </div>
+          <div className="section">
+            <p className="details post-details">
+              নিশাত হিমেলের বিশ্ববিদ্যালয়ে একই বর্ষে পড়াশুনা করছে। কখনো সামনা
+              সামনি কথা বলার সাহস না হলেও দূর থেকে অনেক দিন ধরেই দেখে আসছে। সাহস
+              সঞ্চার করতে করতে আজ সে সরাসরি জানাবে বলে সিদ্ধান্ত নিয়েছে। হিমেল
+              কম্পিউটার সাইন্সের ছাত্র, আর নিশাত প্রাণিবিদ্যা বিভাগের ছাত্রী।
+              প্রাণীবিদ্যার ছাত্রী হলেও মাল্টি-ট্যালেন্টেডই বলা চলে তাকে, অনেক
+              সৃজনশীল কর্মকান্ডে নিজেকে জড়িত রেখেছে। হিমেলের ভয়ের অন্যতম জায়গা
+              এটাও যে, এক্সট্রোভার্ট মানুষদের মন জয় করাও কঠিন বিষয়। তাও সে একটা
+              কঠিন পরীক্ষা দিতে প্রস্তুত, যা হবার হবে।{" "}
+            </p>
+            <br />
+            <a className="read-more" href="/posts/11">
+              বিস্তারিত...{" "}
+            </a>
+          </div>
+        </div>
+
         {/* post no 10  */}
         <div className="post">
           <div className="section">

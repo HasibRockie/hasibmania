@@ -19,6 +19,7 @@ import Post07 from "./Pages/Posts/Post07/Post07";
 import Post08 from "./Pages/Posts/Post08/Post08";
 import Post09 from "./Pages/Posts/Post09/Post09";
 import Post10 from "./Pages/Posts/Post10/Post10";
+import Post11 from "./Pages/Posts/Post11/Post11";
 function App() {
   return (
     <div className="App">
@@ -42,6 +43,7 @@ function App() {
             <Route path="08" element={<Post08 />} />
             <Route path="09" element={<Post09 />} />
             <Route path="10" element={<Post10 />} />
+            <Route path="11" element={<Post11 />} />
           </Route>
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
