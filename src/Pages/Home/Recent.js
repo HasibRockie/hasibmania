@@ -10,6 +10,7 @@ import img8 from "../images/post08.png";
 import img9 from "../images/post09.png";
 import img10 from "../images/post10.png";
 import img11 from "../images/post11.png";
+import img12 from "../images/post12.png";
 
 const Recent = () => {
   return (
@@ -20,6 +21,44 @@ const Recent = () => {
       <br />
       <br />
       <div className="all-posts">
+        {/* post no 12  */}
+        <div className="post">
+          <div className="section">
+            <div className="inner">
+              <h4 className="post-title">“শেষ কোথায়?” </h4>
+              <h5 className="post-subtitle">পোস্ট নংঃ ১২ </h5> <hr />
+              <div className="category">
+                <p>বিবিধ</p>
+                <p>১৩ মে, ২০২২</p>
+              </div>{" "}
+              <hr />
+              <p className="details post-details-top">
+                মৃদুল সাহেব। একটি কোম্পানির ডাটা এনালিস্ট ম্যানেজার। প্রায় ৯ বছর
+                যাবৎ চাকুরি করছেন এই কোম্পানি তে। বেতন ভালোই, যদিও তিনি এর চেয়ে
+                বেশি ডিজার্ভ করেন বলে বিশ্বাস করেন।
+              </p>
+            </div>
+            <div className="inner">
+              <img className="post-image" src={img12} alt="post 12" />
+            </div>
+          </div>
+          <div className="section">
+            <p className="details post-details">
+              ১৩ বছর আগে ঢাকা বিশ্ববিদ্যালয় থেকে পরিসংখ্যানে অনার্স ও মাস্টার্স
+              করেছেন। বিবাহিত এবং দুটো বাচ্চা রয়েছে। তার স্ত্রীর নাম রেহানা, বড়
+              মেয়ে মারিয়ার বয়স ১০বছর, ছোট ছেলে রাসেলের বয়স ৬বছর। একটি ভাড়া বাসায়
+              থাকেন। বছরখানেক আগে তার মা-র গলার ক্যান্সার ধরা পড়ায় আর্থিকভাবে
+              কিছুটা টানাটানির মধ্যে আছেন। এখনো অসুস্থ অবস্থায় আছেন তার মা।
+              নাহলে ঐ বেতন দিয়ে তার পরিবারের ভালোভাবেই চলে যায়। জীবন নিয়ে তেমন
+              কোনো আফসোসও নেই তার।{" "}
+            </p>
+            <br />
+            <a className="read-more" href="/posts/12">
+              বিস্তারিত...{" "}
+            </a>
+          </div>
+        </div>
+
         {/* post no 11  */}
         <div className="post">
           <div className="section">
