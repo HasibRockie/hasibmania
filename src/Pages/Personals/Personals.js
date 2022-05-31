@@ -8,6 +8,7 @@ import img5 from "../images/post05.png";
 import img6 from "../images/post06.png";
 import img7 from "../images/post07.png";
 import img8 from "../images/post08.png";
+import img14 from "../images/post14.png";
 
 const Personals = () => {
   return (
@@ -19,6 +20,38 @@ const Personals = () => {
         <br />
         <br />
         <div className="all-posts">
+
+
+           {/* post no 14  */}
+           <div className="post">
+            <div className="section">
+              <div className="inner">
+                <h4 className="post-title">"শিক্ষাজীবনের আমলনামা" </h4>
+                <h5 className="post-subtitle">পোস্ট নংঃ ১৪ </h5> <hr />
+                <div className="category">
+                  <p>ব্যাক্তিগত</p>
+                  <p>১ জুন, ২০২২</p>
+                </div>{" "}
+                <hr />
+                <p className="details post-details-top">
+                খুব যত্ন করে সব মার্কশীট রেখে দিয়েছিলাম মাধ্যমিক এবং উচ্চ-মাধ্যমিকের। সেসব আমলনামা এখানেও রেখে দিলাম, 
+                </p>
+              </div>
+              <div className="inner">
+                <img className="post-image" src={img14} alt="post 14" />
+              </div>
+            </div>
+            <div className="section">
+              <p>
+              যেনো হারিয়ে যাওয়ার ভয় না থাকে আর। কোন এক সময় স্মৃতিচারণ করা যাবে হয়তো। 
+              </p>
+              <br />
+              <a className="read-more" href="/posts/14">
+                বিস্তারিত...{" "}
+              </a>
+            </div>
+          </div>
+
 
           {/* post no 08  */}
           <div className="post">

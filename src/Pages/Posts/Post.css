@@ -42,6 +42,7 @@
 }
 
 
+
 @media only screen and (max-width: 900px){
     .post-container{
         padding: 40px 10px;
@@ -72,4 +73,6 @@
         color: rgba(255, 60, 60, 0.856);
         flex-wrap: wrap;
     }
+
+ 
 }
