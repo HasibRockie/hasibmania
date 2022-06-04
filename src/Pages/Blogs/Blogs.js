@@ -5,6 +5,7 @@ import img9 from "../images/post09.png";
 import img10 from "../images/post10.png";
 import img11 from "../images/post11.png";
 import img12 from "../images/post12.png";
+import img15 from "../images/post15.png";
 
 const Blogs = () => {
   return (
@@ -16,6 +17,43 @@ const Blogs = () => {
         <br />
         <br />
         <div className="all-posts">
+          {/* post no 15  */}
+          <div className="post">
+            <div className="section">
+              <div className="inner">
+                <h4 className="post-title">“অদৃশ্য দেয়াল!!” </h4>
+                <h5 className="post-subtitle">পোস্ট নংঃ ১৫ </h5> <hr />
+                <div className="category">
+                  <p>বিবিধ</p>
+                  <p>৪ জুন, ২০২২</p>
+                </div>{" "}
+                <hr />
+                <p className="details post-details-top">
+                  বাবার সরকারি চাকুরির সুবাধে রাফিদের বার বার বিভিন্ন জেলায়
+                  ঘুরতে হচ্ছে। এবার তার বাবার পোস্টিং হয়েছে মাগুরায়। তার বাবা
+                  একজন রেলওয়ে কর্মকর্তা। সে এবার কলেজে ভর্তি হবে। পরিবারের
+                  একমাত্র ছেলে বলে কথা,
+                </p>
+              </div>
+              <div className="inner">
+                <img className="post-image" src={img15} alt="post 15" />
+              </div>
+            </div>
+            <div className="section">
+              <p className="details post-details">
+                তার যে কোন আবদারই তার পরিবার শুনতে বাধ্য। তার কাছে তার জীবন
+                এডভেঞ্চারময় মনে হয়, বিভিন্ন জেলায় বিভিন্ন পরিবেশে নিজেকে মানিয়ে
+                নিতে হয়। আবার মাঝে মাঝে এটা ভেবে খারাপও লাগে যে, কোন প্রিয় বন্ধু
+                কেই বেশিদিন ধরে রাখতে পারে না, যখনই কারো সাথে ঘনিষ্ঠ বন্ধুত্ব
+                তৈরি হতে থাকে, তখনই তাকে ছেড়ে আসার সময় হয়ে যায়।{" "}
+              </p>
+              <br />
+              <a className="read-more" href="/posts/15">
+                বিস্তারিত...{" "}
+              </a>
+            </div>
+          </div>
+
           {/* post no 12  */}
           <div className="post">
             <div className="section">

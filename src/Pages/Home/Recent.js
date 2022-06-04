@@ -13,6 +13,7 @@ import img11 from "../images/post11.png";
 import img12 from "../images/post12.png";
 import img13 from "../images/post13.png";
 import img14 from "../images/post14.png";
+import img15 from "../images/post15.png";
 
 const Recent = () => {
   return (
@@ -23,38 +24,74 @@ const Recent = () => {
       <br />
       <br />
       <div className="all-posts">
-
-        
-           {/* post no 14  */}
-           <div className="post">
-            <div className="section">
-              <div className="inner">
-                <h4 className="post-title">"শিক্ষাজীবনের আমলনামা" </h4>
-                <h5 className="post-subtitle">পোস্ট নংঃ ১৪ </h5> <hr />
-                <div className="category">
-                  <p>ব্যাক্তিগত</p>
-                  <p>১ জুন, ২০২২</p>
-                </div>{" "}
-                <hr />
-                <p className="details post-details-top">
-                খুব যত্ন করে সব মার্কশীট রেখে দিয়েছিলাম মাধ্যমিক এবং উচ্চ-মাধ্যমিকের। সেসব আমলনামা এখানেও রেখে দিলাম, 
-                </p>
-              </div>
-              <div className="inner">
-                <img className="post-image" src={img14} alt="post 14" />
-              </div>
-            </div>
-            <div className="section">
-              <p>
-              যেনো হারিয়ে যাওয়ার ভয় না থাকে আর। কোন এক সময় স্মৃতিচারণ করা যাবে হয়তো। 
+        {/* post no 15  */}
+        <div className="post">
+          <div className="section">
+            <div className="inner">
+              <h4 className="post-title">“অদৃশ্য দেয়াল!!” </h4>
+              <h5 className="post-subtitle">পোস্ট নংঃ ১৫ </h5> <hr />
+              <div className="category">
+                <p>বিবিধ</p>
+                <p>৪ জুন, ২০২২</p>
+              </div>{" "}
+              <hr />
+              <p className="details post-details-top">
+                বাবার সরকারি চাকুরির সুবাধে রাফিদের বার বার বিভিন্ন জেলায় ঘুরতে
+                হচ্ছে। এবার তার বাবার পোস্টিং হয়েছে মাগুরায়। তার বাবা একজন
+                রেলওয়ে কর্মকর্তা। সে এবার কলেজে ভর্তি হবে। পরিবারের একমাত্র ছেলে
+                বলে কথা,
               </p>
-              <br />
-              <a className="read-more" href="/posts/14">
-                বিস্তারিত...{" "}
-              </a>
+            </div>
+            <div className="inner">
+              <img className="post-image" src={img15} alt="post 15" />
             </div>
           </div>
+          <div className="section">
+            <p className="details post-details">
+              তার যে কোন আবদারই তার পরিবার শুনতে বাধ্য। তার কাছে তার জীবন
+              এডভেঞ্চারময় মনে হয়, বিভিন্ন জেলায় বিভিন্ন পরিবেশে নিজেকে মানিয়ে
+              নিতে হয়। আবার মাঝে মাঝে এটা ভেবে খারাপও লাগে যে, কোন প্রিয় বন্ধু
+              কেই বেশিদিন ধরে রাখতে পারে না, যখনই কারো সাথে ঘনিষ্ঠ বন্ধুত্ব তৈরি
+              হতে থাকে, তখনই তাকে ছেড়ে আসার সময় হয়ে যায়।{" "}
+            </p>
+            <br />
+            <a className="read-more" href="/posts/15">
+              বিস্তারিত...{" "}
+            </a>
+          </div>
+        </div>
 
+        {/* post no 14  */}
+        <div className="post">
+          <div className="section">
+            <div className="inner">
+              <h4 className="post-title">"শিক্ষাজীবনের আমলনামা" </h4>
+              <h5 className="post-subtitle">পোস্ট নংঃ ১৪ </h5> <hr />
+              <div className="category">
+                <p>ব্যাক্তিগত</p>
+                <p>১ জুন, ২০২২</p>
+              </div>{" "}
+              <hr />
+              <p className="details post-details-top">
+                খুব যত্ন করে সব মার্কশীট রেখে দিয়েছিলাম মাধ্যমিক এবং
+                উচ্চ-মাধ্যমিকের। সেসব আমলনামা এখানেও রেখে দিলাম,
+              </p>
+            </div>
+            <div className="inner">
+              <img className="post-image" src={img14} alt="post 14" />
+            </div>
+          </div>
+          <div className="section">
+            <p>
+              যেনো হারিয়ে যাওয়ার ভয় না থাকে আর। কোন এক সময় স্মৃতিচারণ করা যাবে
+              হয়তো।
+            </p>
+            <br />
+            <a className="read-more" href="/posts/14">
+              বিস্তারিত...{" "}
+            </a>
+          </div>
+        </div>
 
         {/* post no 13  */}
         <div className="post">
@@ -84,7 +121,8 @@ const Recent = () => {
               ইয়াজুজ-মাজুজ সম্পর্কে আল্লাহ বলেছেনঃ <br />
               “আবার সে (জুলকারনাইন) পথ চলতে লাগল। অবশেষে যখন সে দুই পর্বত
               প্রাচীরের মধ্যস্থলে পৌঁছল, তখন সেখানে এক জাতিকে পেল,যারা তাঁর কথা
-              একেবারেই বুঝতে পারছিল না। তারা বলল: হে যুলকারনাইন!ইয়াজূজ ও মাজূজ...{" "}
+              একেবারেই বুঝতে পারছিল না। তারা বলল: হে যুলকারনাইন!ইয়াজূজ ও
+              মাজূজ...{" "}
             </p>
             <br />
             <a className="read-more" href="/posts/13">
