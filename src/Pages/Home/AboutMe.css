@@ -212,7 +212,7 @@
 .site-link{
     background-color: rgb(0, 0, 0);
     border: 2px solid black;
-    display: inline;
+    display: block;
     color: white;
     padding: 10px 10px;
     border-radius: 10px;
