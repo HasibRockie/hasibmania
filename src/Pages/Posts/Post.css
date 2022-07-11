@@ -145,5 +145,8 @@
         flex-wrap: wrap;
     }
 
+    .category p{
+        font-size: 10px;
+      }
  
 }
