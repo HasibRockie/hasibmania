@@ -1,0 +1,48 @@
+.newpost{
+    margin: 30px 150px;
+    padding: 20px 40px;
+    background-color: rgb(75, 75, 75);
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.head-newpost{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.green-notification{
+    margin: 15px 0;
+    background-color: green;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+
+.red-notification{
+    margin: 15px 0;
+    background-color: red;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .newpost{
+        margin: 30px 50px;
+        padding: 20px 30px;
+        background-color: rgb(75, 75, 75);
+        text-align: left;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+
+}
