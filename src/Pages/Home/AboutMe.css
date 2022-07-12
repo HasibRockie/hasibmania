@@ -1,26 +1,32 @@
 .about-me-section{
     text-align: left;
-
+    
+    font-family: "Baloo Da 2", cursive;
 }
+
 
 .social-icons{
     /* background-color: black; */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     flex-wrap: wrap;
     text-align: center;
     list-style: none;
-    justify-content: space-around;
+    justify-content: center;
+    margin: 20px 40px;
 }
 
 .social-icons li{
-    background-color: black;
-    color: white;
     padding: 5px 0px;
-    margin: 10px 30px;
     border-radius: 50px;
-    box-shadow: 2px 2px 5px gray;
-    
+    margin: 10px;
+    border: 0.5px solid black;
+}
+
+.social-icons i{
+    color: black;
+    font-size: 22px;
+    padding: 5px 10px;
+    margin: 5px 5px;
 }
 
 .social-icons a{
@@ -50,7 +56,8 @@
 }
 
 .about img {
-    height: 500px;
+    /* height: 500px; */
+    width: 80%;
     border: 2px solid gray;
 }
 
@@ -167,30 +174,28 @@
     
 
     .social-icons{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        /* background-color: black; */
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
         list-style: none;
-        justify-content: space-around;
-        width: 100%; 
-
+        justify-content: center;
+        margin: 20px 40px;
     }
     
     .social-icons li{
-        background-color: black;
-        color: white;
         padding: 5px 0px;
-        margin: 10px 30px;
         border-radius: 50px;
-        box-shadow: 2px 2px 5px gray;
-        
+        margin: 10px;
+        border: 0.5px solid black;
     }
     
-    .social-icons a{
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
+    .social-icons i{
+        color: black;
+        font-size: 22px;
+        padding: 5px 10px;
+        margin: 5px 5px;
     }
-
 
 
 .wesbite{

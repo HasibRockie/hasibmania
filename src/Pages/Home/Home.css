@@ -68,6 +68,8 @@
   margin: 10px;
   padding: 20px;
   background-color: #f3f2ef;
+  
+  font-family: "Baloo Da 2", cursive;
 }
 
 .inner:nth-child(2) {
