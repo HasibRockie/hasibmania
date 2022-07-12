@@ -1,0 +1,26 @@
+.login-container{
+    margin: auto;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.rounded{
+    border-radius: 8px;
+}
+
+.signin{
+background-color: white;
+padding: 50px 20px;
+}
+
+.signin button{
+background-color: coral;
+margin: 50px;
+}
+
+@media screen and (max-width:850px) {
+    .login-container{
+        width:100%;
+        margin: auto;
+    }
+}
