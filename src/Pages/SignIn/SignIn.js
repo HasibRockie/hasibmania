@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import useAuth from "../../Context/useAuth";
 import "./SignIn.css";
 // import { useHistory, useLocation } from "react-router";
@@ -11,7 +10,6 @@ const SignIn = () => {
     setError,
     Logout,
     authorized,
-    isLoading,
     GoogleSignIn,
     setAuthorized,
     setIsLoading,
@@ -33,7 +31,6 @@ const SignIn = () => {
       .catch((error) => {
         const errorCode = error.code;
         const errorMessage = error.message;
-        // const credential = GoogleAuthProvider.credentialFromError(error);
 
         setError(error?.message);
       })
